@@ -54,7 +54,7 @@ function Footer() {
         {/* Copyright */}
         <div className="mt-16 pt-8 border-t border-[#234571] text-center">
           <p className="text-[#FFFFFF] text-sm">
-          ©2021 Whitepace LLC.
+          ©2021 Whitepace LLC.......................
           </p>
         </div>
       </div>

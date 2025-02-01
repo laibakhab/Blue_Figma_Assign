@@ -1,10 +1,9 @@
 "use client";
-import logo from "../../public/Images/Logo.png";
+import logo from "@/app/assets/Logo.png";
 import Image from "next/image";
 import React from "react";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import Link from "next/link";
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -31,24 +30,24 @@ function Navbar() {
         >
           <ul className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 text-[18px] font-semibold text-white mt-4 lg:mt-0 ">
             <li>
-              <Link href="#" className="block hover:text-[#FFE492]">
+              <a href="#" className="block hover:text-[#FFE492]">
                 Products
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href="#" className="block hover:text-[#FFE492]">
+              <a href="#" className="block hover:text-[#FFE492]">
                 Services
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href="#" className="block hover:text-[#FFE492]">
+              <a href="#" className="block hover:text-[#FFE492]">
                 Resources
-              </Link>
+              </a>
             </li>
             <li>
-              <Link href="#" className="block hover:text-[#FFE492]">
+              <a href="#" className="block hover:text-[#FFE492]">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
           <button className="w-full lg:w-auto mt-4 lg:mt-0 py-4 px-10 rounded-lg bg-[#FFE492] text-[#043873] font-semibold hover:bg-[#FFD460] transition-colors">

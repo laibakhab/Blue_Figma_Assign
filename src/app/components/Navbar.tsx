@@ -1,5 +1,5 @@
 "use client";
-import logo from "@/app/assets/Logo.png";
+import logo from "../assets/Logo.png";
 import Image from "next/image";
 import React from "react";
 import { Menu, X } from "lucide-react";

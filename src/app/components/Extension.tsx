@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Arrow from "@/app/assets/Group 212.png";
+import Arrow from "../assets/Group 212.png";
 function Extension() {
   return (
     <div>

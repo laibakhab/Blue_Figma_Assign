@@ -1,5 +1,5 @@
 import React from "react";
-import Arrow from "@/app/assets/Group 212.png";
+import Arrow from "../assets/Group 212.png";
 import Image from "next/image";
 function HeroSection() {
   return (

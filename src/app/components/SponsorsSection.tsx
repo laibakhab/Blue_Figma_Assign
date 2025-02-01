@@ -1,8 +1,8 @@
 import React from 'react'
-import Apple from "@/app/assets/Apple.png"
-import Microsoft from "@/app/assets/Microsoft.png"
-import Slack from "@/app/assets/Slack.png"
-import Google from "@/app/assets/Google.png"
+import Apple from "../assets/Apple.png"
+import Microsoft from "../assets/Microsoft.png"
+import Slack from "../assets/Slack.png"
+import Google from "../assets/Google.png"
 import Image from 'next/image'
 function SponsorsSection() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import WorkTogetherImage from "@/app/assets/Work Together Image.png"; 
+import WorkTogetherImage from "../assets/Work Together Image.png"; 
 import Image from 'next/image';
-import Arrow from "@/app/assets/Group 212.png";
+import Arrow from "../assets/Group 212.png";
 
 function WorkTogether() {
   return (
